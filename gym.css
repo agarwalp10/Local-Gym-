@@ -1,0 +1,90 @@
+/* working on login-button */
+
+.login-button {
+    background-color: bisque;
+    color:black;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    /* transition: 0.3s background-color; */
+
+
+}
+
+.navbar-brand {
+    font-weight: 500;
+    color: aqua;
+    font-size: 30px;
+
+}
+
+.login-button:hover {
+    background-color: antiquewhite;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.nav-link {
+    color:aqua;
+    font-weight: 500w;
+}
+
+/* Hero section */
+/* contraining height */
+
+.c-item {
+    height: 750px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Login Page */
+
+#signin{
+    width: 24%;
+    background-color: aqua;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 150px;
+}
+
+.btn-primary{
+    width: 100%;
+    border: none;
+    border-radius: 50x;
+    background: black;
+}
+
+/* .form-control{
+    color: blue;
+    border-bottom-color: orangered;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 4px 4px 0 0;
+} */
+
+h4{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+.form_label{
+    font-family: 700;
+
+}
+
+/* @media only screen an (max-width:600px){
+    #signin{
+        width: 100%;
+
+    }
+} */

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="gym.css">
+<title>Gym Landing Page</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-xl bg-dark fixed-top">
+        <div class="container">
+            <a 
+            href="Gym.html" 
+            class="navbar-brand mb-0 h1">
+                <img src="images/logo-unsplash.jpg" alt="" class="d-inline-block align-top" width="30" height="30">
+                Basketball Training
+            </a>
+            
+            <div 
+                class="collapse navbar-collapse" 
+                id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="about.html#about" class="nav-link mx-lg-2 active">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html#features" class="nav-link mx-lg-2 active">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html#membership" class="nav-link mx-lg-2 active">Membership</a>
+                    </li>
+                </ul>
+
+            </div>
+            <form class="d-flex">
+                <input type="text" class="form-control me-2">
+                <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+            <a href="signin.html" class="login-button">Login</a>
+            <a href="signup.html" class="login-button">Sign up</a>
+            <button 
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                class="navbar-toggler"
+                >
+                <span class="navbar-toggler-icon"></span>
+                
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="hero-carousel" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img src="images/Main_1.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption mt-4">
+                <p class="mt-5 fs-3 text-uppercase">Basketball players jungle gym to increase performance and strength</p>
+                <h1 class="display-1 fw-bolder text-capitalize">Basketball Training & Practice Gym</h1>
+              </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="images/Main_2.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption">
+                <p class="mt-5 fs-3 text-uppercase">Work on your weight training to reach peak performance</p>
+                <h1 class="display-1 fw-bolder text-capitalize">State of the art weight room</h1>
+              </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="images/main_3.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption">
+                <p class="mt-5 fs-3 text-uppercase">Work on your game by scrimmaging and playing in our leagues</p>
+                <h1 class="display-1 fw-bolder text-capitalize">Scrimmage and Games</h1>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+    </div>
+
+
+    
+    <!-- Footer Section -->
+    <footer class="text-light text-center bg-dark">
+        <div>
+            <div class="foothead h3">Info</div>
+                <div class="address">
+                    <p class="m-0 tiny">Boston, MA, USA</p>
+                </div>
+                <div class="email">
+                    <p class="m-0 tiny">training@basketballgym.com</p>
+                </div>
+                <div class="phone">
+                    <p class="m-0 tiny">Call Us: 708-555-4545</p>
+                </div>
+        </div>
+        <div>
+            <p class="lead text-center p-3">Pictures are from unsplash.com</p>
+        </div>
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

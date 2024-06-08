@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="gym.css">
+<link rel="stylesheet" href="signup.css">
+<title>Gym About Page</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-xl bg-dark">
+        <div class="container">
+            <a 
+            href="Gym.html" 
+            class="navbar-brand mb-0 h1">
+                <img src="images/logo-unsplash.jpg" alt="" class="d-inline-block align-top" width="30" height="30">
+                Basketball Training
+            </a>
+            
+            <div 
+                class="collapse navbar-collapse" 
+                id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="about.html#about" class="nav-link mx-lg-2 active">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html#features" class="nav-link mx-lg-2 active">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html#membership" class="nav-link mx-lg-2 active">Membership</a>
+                    </li>
+                </ul>
+
+            </div>
+            <form class="d-flex">
+                <input type="text" class="form-control me-2">
+                <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+            <a href="signin.html" class="login-button">Login</a>
+            <a href="signup.html" class="login-button">Sign up</a>
+            <button 
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                class="navbar-toggler"
+                >
+                <span class="navbar-toggler-icon"></span>
+                
+            </button>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <div class="container mb-5">
+        <h1 id="about" class="display-4 fw-bolder text-capitalize pt-2">About</h1>
+        <div class="row g-3 pt-3">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="images/about-2.jpg" alt="basketball picture" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">What can you expect?</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt molestias atque impedit nemo ipsam temporibus laboriosam corrupti, id fugit, dolorum tenetur nam velit totam doloribus in rerum magni quaerat mollitia.</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="images/features.jpg" alt="basketball picture" class="weight room">
+                    <div class="card-body">
+                        <h5 id="features" class="card-title">Features</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt molestias atque impedit nemo ipsam temporibus laboriosam corrupti, id fugit, dolorum tenetur nam velit totam doloribus in rerum magni quaerat mollitia.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="images/membership.jpg" alt="basketball picture" class="team">
+                    <div class="card-body">
+                        <h5 id="membership" class="card-title">Membership Packages</h5>
+                        <ul class="mb-0">
+                            <li><b>Ultimate:</b> All facilities, league play, and trainer </li>
+                        </ul>
+                        <ul class="mb-0">
+                            <li><b>Premium:</b> All facilities, league play, no trainer </li>
+                        </ul>
+                        <ul class="mb-0">
+                            <li> <b>Play:</b> Courts and league play </li>
+                        </ul>
+                        <ul class="mb-4">
+                            <li><b>Basic:</b> Courts and weight room (no league play) </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="text-light text-center bg-dark">
+        <div>
+            <div class="foothead h3">Info</div>
+                <div class="address">
+                    <p class="m-0 tiny">Boston, MA, USA</p>
+                </div>
+                <div class="email">
+                    <p class="m-0 tiny">training@basketballgym.com</p>
+                </div>
+                <div class="phone">
+                    <p class="m-0 tiny">Call Us: 708-555-4545</p>
+                </div>
+        </div>
+        <div>
+            <p class="lead text-center p-3">Pictures are from unsplash.com</p>
+        </div>
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

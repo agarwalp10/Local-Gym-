@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="gym.css">
+<link rel="stylesheet" href="signup.css">
+<title>Gym Sign In</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-xl bg-dark">
+        <div class="container">
+            <a 
+            href="Gym.html" 
+            class="navbar-brand mb-0 h1">
+                <img src="images/logo-unsplash.jpg" alt="" class="d-inline-block align-top" width="30" height="30">
+                Basketball Training
+            </a>
+            
+            <div 
+                class="collapse navbar-collapse" 
+                id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="about.html#about" class="nav-link mx-lg-2 active">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html#features" class="nav-link mx-lg-2 active">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html#membership" class="nav-link mx-lg-2 active">Membership</a>
+                    </li>
+                </ul>
+
+            </div>
+            <form class="d-flex">
+                <input type="text" class="form-control me-2">
+                <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+            <a href="signin.html" class="login-button">Login</a>
+            <a href="signup.html" class="login-button">Sign up</a>
+            <button 
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                class="navbar-toggler"
+                >
+                <span class="navbar-toggler-icon"></span>
+                
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <div class="container-fluid mb-5" id="signin">
+        <form class="mx-auto">
+            <h4 class="text-center">Login</h4>
+    
+            <div class="mb-3 mt-5">
+              <label for="exampleInputEmail1" class="form-label">User Name</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+              <div id="emailHelp" class="form-text mt-3">Forget Password</div>
+
+            </div>
+            <!-- <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div> -->
+            <button type="submit" class="btn btn-primary mt-4">Login</button>
+        </form>    
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="text-light text-center bg-dark">
+        <div>
+            <div class="foothead h3">Info</div>
+                <div class="address">
+                    <p class="m-0 tiny">Boston, MA, USA</p>
+                </div>
+                <div class="email">
+                    <p class="m-0 tiny">training@basketballgym.com</p>
+                </div>
+                <div class="phone">
+                    <p class="m-0 tiny">Call Us: 708-555-4545</p>
+                </div>
+        </div>
+        <div>
+            <p class="lead text-center p-3">Pictures are from unsplash.com</p>
+        </div>
+    </footer>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
